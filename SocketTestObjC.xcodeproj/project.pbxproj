@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F1D45F38B15133951DB861D /* Pods_SocketTestObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11D65E4DF5A71597B7C7C609 /* Pods_SocketTestObjC.framework */; };
 		7DF251C1206A4531002FFD06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF251C0206A4531002FFD06 /* AppDelegate.m */; };
 		7DF251C4206A4531002FFD06 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF251C3206A4531002FFD06 /* ViewController.m */; };
 		7DF251C7206A4531002FFD06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF251C5206A4531002FFD06 /* Main.storyboard */; };
 		7DF251C9206A4531002FFD06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DF251C8206A4531002FFD06 /* Assets.xcassets */; };
 		7DF251CC206A4531002FFD06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF251CA206A4531002FFD06 /* LaunchScreen.storyboard */; };
 		7DF251CF206A4531002FFD06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF251CE206A4531002FFD06 /* main.m */; };
+		7DF251D7206A4550002FFD06 /* MySocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF251D6206A4550002FFD06 /* MySocket.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11D65E4DF5A71597B7C7C609 /* Pods_SocketTestObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocketTestObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		647B03F01F37964477D29B9B /* Pods-SocketTestObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocketTestObjC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocketTestObjC/Pods-SocketTestObjC.debug.xcconfig"; sourceTree = "<group>"; };
 		7DF251BC206A4531002FFD06 /* SocketTestObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocketTestObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DF251BF206A4531002FFD06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7DF251C0206A4531002FFD06 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +30,9 @@
 		7DF251CB206A4531002FFD06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DF251CD206A4531002FFD06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DF251CE206A4531002FFD06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7DF251D5206A4550002FFD06 /* SocketTestObjC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SocketTestObjC-Bridging-Header.h"; sourceTree = "<group>"; };
+		7DF251D6206A4550002FFD06 /* MySocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySocket.swift; sourceTree = "<group>"; };
+		9ABA9CFA3D801A6F838519C3 /* Pods-SocketTestObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocketTestObjC.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocketTestObjC/Pods-SocketTestObjC.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F1D45F38B15133951DB861D /* Pods_SocketTestObjC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +52,8 @@
 			children = (
 				7DF251BE206A4531002FFD06 /* SocketTestObjC */,
 				7DF251BD206A4531002FFD06 /* Products */,
+				BB8D0311053C8CD35216C6F3 /* Pods */,
+				F65E6EE1461453BA93A4574A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,13 +72,32 @@
 				7DF251C0206A4531002FFD06 /* AppDelegate.m */,
 				7DF251C2206A4531002FFD06 /* ViewController.h */,
 				7DF251C3206A4531002FFD06 /* ViewController.m */,
+				7DF251D6206A4550002FFD06 /* MySocket.swift */,
 				7DF251C5206A4531002FFD06 /* Main.storyboard */,
 				7DF251C8206A4531002FFD06 /* Assets.xcassets */,
 				7DF251CA206A4531002FFD06 /* LaunchScreen.storyboard */,
 				7DF251CD206A4531002FFD06 /* Info.plist */,
 				7DF251CE206A4531002FFD06 /* main.m */,
+				7DF251D5206A4550002FFD06 /* SocketTestObjC-Bridging-Header.h */,
 			);
 			path = SocketTestObjC;
+			sourceTree = "<group>";
+		};
+		BB8D0311053C8CD35216C6F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				647B03F01F37964477D29B9B /* Pods-SocketTestObjC.debug.xcconfig */,
+				9ABA9CFA3D801A6F838519C3 /* Pods-SocketTestObjC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F65E6EE1461453BA93A4574A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11D65E4DF5A71597B7C7C609 /* Pods_SocketTestObjC.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7DF251D2206A4531002FFD06 /* Build configuration list for PBXNativeTarget "SocketTestObjC" */;
 			buildPhases = (
+				993359CE0D2F2CA04E5C3377 /* [CP] Check Pods Manifest.lock */,
 				7DF251B8206A4531002FFD06 /* Sources */,
 				7DF251B9206A4531002FFD06 /* Frameworks */,
 				7DF251BA206A4531002FFD06 /* Resources */,
+				369D97E3313F170CD3850F28 /* [CP] Embed Pods Frameworks */,
+				1C13D83193C451A3444D0C6C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -102,6 +134,7 @@
 				TargetAttributes = {
 					7DF251BB206A4531002FFD06 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,11 +170,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C13D83193C451A3444D0C6C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocketTestObjC/Pods-SocketTestObjC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		369D97E3313F170CD3850F28 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SocketTestObjC/Pods-SocketTestObjC-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftSocket/SwiftSocket.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSocket.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocketTestObjC/Pods-SocketTestObjC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		993359CE0D2F2CA04E5C3377 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SocketTestObjC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7DF251B8206A4531002FFD06 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DF251D7206A4550002FFD06 /* MySocket.swift in Sources */,
 				7DF251C4206A4531002FFD06 /* ViewController.m in Sources */,
 				7DF251CF206A4531002FFD06 /* main.m in Sources */,
 				7DF251C1206A4531002FFD06 /* AppDelegate.m in Sources */,
@@ -276,28 +364,37 @@
 		};
 		7DF251D3206A4531002FFD06 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 647B03F01F37964477D29B9B /* Pods-SocketTestObjC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2MN47LCN82;
 				INFOPLIST_FILE = SocketTestObjC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = seb.SocketTestObjC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SocketTestObjC/SocketTestObjC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		7DF251D4206A4531002FFD06 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ABA9CFA3D801A6F838519C3 /* Pods-SocketTestObjC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2MN47LCN82;
 				INFOPLIST_FILE = SocketTestObjC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = seb.SocketTestObjC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SocketTestObjC/SocketTestObjC-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
